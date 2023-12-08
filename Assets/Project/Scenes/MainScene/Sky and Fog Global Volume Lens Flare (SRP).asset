@@ -18,22 +18,22 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0}
     angularOffset: 0
     translationScale: {x: 1, y: 1}
-    m_LocalIntensity: 0.25
-    lensFlareTexture: {fileID: 0}
+    m_LocalIntensity: 0.2
+    lensFlareTexture: {fileID: 2800000, guid: da508064bca40f04e9c4c499050deb6a, type: 3}
     uniformScale: 0.94
     sizeXY: {x: 1, y: 1}
     allowMultipleElement: 1
     m_Count: 6
     preserveAspectRatio: 0
     rotation: 0
-    tint: {r: 1, g: 1, b: 1, a: 0.23529412}
+    tint: {r: 1, g: 0.8833857, b: 0.5801887, a: 0.23529412}
     blendMode: 0
     autoRotate: 0
     flareType: 1
     modulateByLightColor: 1
     isFoldOpened: 1
     distribution: 2
-    lengthSpread: 0.64
+    lengthSpread: 0.52
     positionCurve:
       serializedVersion: 2
       m_Curve:
@@ -144,11 +144,11 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     distortionRelativeToCenter: 1
-    m_FallOff: 0.311
-    m_EdgeOffset: 1
+    m_FallOff: 0.701
+    m_EdgeOffset: 0.183
     m_SideCount: 6
     m_SdfRoundness: 0
-    inverseSDF: 1
+    inverseSDF: 0
     uniformAngle: 0
     uniformAngleCurve:
       serializedVersion: 2
